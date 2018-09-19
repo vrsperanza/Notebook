@@ -18,8 +18,7 @@ using namespace std;
 #else
 #define dprintf if(false) printf
 #endif
-#define DEBUG 0
 
 int main(){
-	
+    
 }
