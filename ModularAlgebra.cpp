@@ -26,3 +26,7 @@ inline int sum(int a, int b){
 	while(a < 0) a += MOD;
     return a;
 }
+
+inline div(int a, int b){
+	return mul(a, inv(b));	
+}
