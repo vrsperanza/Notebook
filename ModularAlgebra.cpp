@@ -27,6 +27,6 @@ inline int sum(int a, int b){
     return a;
 }
 
-inline div(int a, int b){
+inline int div(int a, int b){
 	return mul(a, inv(b));	
 }
