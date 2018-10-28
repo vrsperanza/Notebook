@@ -15,8 +15,10 @@ using namespace std;
 
 #ifdef ebug
 #define dprintf printf
+#define dcout cout
 #else
 #define dprintf if(false) printf
+#define dcout if(false) cout
 #endif
 
 int main(){
